@@ -1,0 +1,40 @@
+body {
+    background: #020617;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.app {
+    background: #0b1220;
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    background: #22c55e;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 15px;
+}
